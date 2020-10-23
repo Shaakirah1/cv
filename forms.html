@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+   <form action="" method="get">
+     <label>Do you like to receive an SMS?</label>
+     <input type="checkbox">
+
+     <label>Do you like to receive an Email? </label>
+     <input type="checkbox">
+     <br>
+     <!--the input list tag needs to exactly match the datalist id for dropdown box to work-->
+     <label for="ice-cream-choice">Choose your ice-cream Flavor:</label>
+     <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice"/>
+     <datalist id="ice-cream-flavors">
+         <option value="Vanilla">
+         <option value="Chocolate">
+         <option value="Mint">
+         <option value="Strawberry">
+     </datalist>
+     <!--The input tag must be a self closing tag</>-->
+     <label for="color-choice">Choose your color?</label>
+     <input list="color-choices" id="color-choice" name="color-choice"/>
+      <datalist id="color-choices">
+         <option value="red">
+         <option value="orange">
+         <option value="black">
+      </datalist>
+
+      <label for="pets">Choose your pet</label>
+      <select>
+        <option value="">--choose your pet--</option>
+        <option value="dog">dog</option>
+        <option value="cat">cat</option>
+        <option value="bird">parrot</option>
+
+
+      </select>
+
+     
+
+
+   </form>
+     <br>
+
+   <button>
+    <a href="contact.html">Click Me</a>
+       
+   </button>
+
+   <button class="btn btn-primary">Primary</button>
+    
+</body>
+</html>
